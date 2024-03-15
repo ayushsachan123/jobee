@@ -14,7 +14,7 @@ const PrivateRoute = ({ children }) => {
     try {
       dispatch(showLoading());
       const { data } = await axios.post(
-        "/api/v1/user/getUser",
+        "https://jobee-7fik.onrender.com/api/v1/user/getUser",
         { token: localStorage.getItem("token") },
         {
           headers: {

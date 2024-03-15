@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
     try {
       dispatch(showLoading());
-      const { data } = await axios.post("/api/v1/auth/login", {
+      const { data } = await axios.post("https://jobee-7fik.onrender.com/api/v1/auth/login", {
         email,
         password,
       });

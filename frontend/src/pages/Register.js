@@ -28,7 +28,7 @@ const Register = () => {
         return toast.error("Please Provide All Fields");
       }
       dispatch(showLoading());
-      const { data } = await axios.post("/api/v1/auth/register", {
+      const { data } = await axios.post("https://jobee-7fik.onrender.com/api/v1/auth/register", {
         name,
         lastName,
         email,
