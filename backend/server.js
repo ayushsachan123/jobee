@@ -38,7 +38,8 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:8080",
+        // url: "http://localhost:8080",
+        url: "https://jobee-7fik.onrender.com",
       },
     ],
   },
